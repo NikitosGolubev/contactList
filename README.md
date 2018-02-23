@@ -2,6 +2,7 @@
 [---ENG---]
 
 Contact List By Nikita Golubev (February 2018)
+
 Create purpose:
 1)	To reinforce and advance knowledge of native Javascript.
 2)	To advance knowledge of ES6 and native work with DOM
@@ -21,6 +22,7 @@ I hope you will like my project, thank you for attention.
 
 Телефонная книга – Никита Голубев
 (Февраль 2018)
+
 Цель создания:
 1)	Укрепить и улучшить знания о чистом Javascript.
 2)	Улучшить знания ES6 и нативной работы с DOM.
