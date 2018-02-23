@@ -1,0 +1,224 @@
+/*** MAIN SETTINGS ***/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url('bg.png');
+	color: #333;
+	font-family: Arial, sans-serif;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*** SEARCH FORM, INPUT FIELDS ***/
+
+input {
+	border: 1px dashed #ff052b;
+	background: #faafc4;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 100%;
+	border-radius: 10px;
+	margin: 10px 10px;
+	outline: none;
+}
+
+.btn {
+	background: #fff;
+	border: 2px solid #ff052b;
+	color: #faafc4;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	margin: 10px 10px;
+	font-size: 100%;
+	transition: 0.3s all;
+}
+
+.btn:hover {
+	background: #faafc4;
+	color: #fff;
+}
+
+/*** CONTACTS ABC***/
+
+#abc {display: flex;}
+.abcBook {margin: 30px;}
+
+.disabled, .letter {
+	background: #fff;
+	cursor: pointer;
+}
+
+.letterName {
+	border-bottom: 1px solid #333;
+	padding: 10px 20px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.abcBook div:first-child .letterName {border-top: 1px solid #333;}
+.letterName:hover {background: #faafc4;}
+.letterName:active, #add:active {opacity: 0.5;}
+
+.contact {
+	border-bottom: 1px solid #333;
+	padding: 10px 20px;
+	font-size: 85%;
+	width: 200px;
+	background: #faafc4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: default;
+}
+
+.contact:hover {
+	background: #fff;
+}
+
+.nameSurname {font-weight: bold;}
+.number {font-style: italic;}
+
+.disabled .letterName, .disabled .letterName:hover, .disabled .letterName:active {
+	background: #999;
+	opacity: 0.8;
+	cursor: default;
+}
+
+.square {
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	background: #333;
+}
+.nameSurname, .number {word-break: break-all;}
+
+.delete {
+	padding: 5px 8px;
+	background: #f00;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s all;
+	border: 1px solid #f00;
+}
+.delete:hover {background: #fff;color: #f00;}
+.delete:active {opacity: 0.6;}
+
+/*** SEARCH FIELD ***/
+
+#openSearch {
+	font-size: 230%;
+	color: rgba(255, 0, 0, 0.8);
+	text-decoration: none;
+}
+#openSearch:hover {text-decoration: underline;}
+#openSearch:active {color: rgba(255, 0, 0, 0.4);}
+
+.search {
+	width: 90%;
+	border-radius: 0;
+	border: 2px solid #fff;
+}
+
+#searchNotFound {
+	display: none;
+}
+
+.sRes {
+	background: #f5f5f5;
+	border-bottom: 1px solid #333;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sRes:hover {
+	background: #faafc4;
+}
+
+.sResMainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sRes .square {
+	margin-right: 15px;
+}
+
+/*** BUBBLE ***/
+
+.bubble_w {
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.bubble {
+	width: 600px;
+	height: 400px;
+	background: #fff;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+.bubbleHeader {
+	height: 50px;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	background: #faafc4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+#closeBubble {
+	width: 30px;
+	height: 30px;
+	background: url('close.png') center center no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.bubbleH {
+	color: #fff;
+	font-size: 160%;
+}
+
+.searchField {
+	background: #faafc4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.starterBubble {text-align: center;}
+
+/*** FOOTER ***/
+
+footer {
+	padding: 20px 0;
+	text-align: center;
+	font-size: 110%;
+}
