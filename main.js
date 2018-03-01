@@ -80,7 +80,7 @@ function validateContact() {
 	let nVal = validateLen(name, 3, 48);
 	//Validating
 	if (nVal !== true) getErrorInput(nameF, nVal);
-	else if (!name.match(/^[a-z]/)) {
+	else if (!name.match(/^[a-z]/i)) {
 		nVal = "First letter must be latin";
 		getErrorInput(nameF, nVal);
 	}
