@@ -18,7 +18,13 @@ So, I haven’t used Babel to compile ES6 into ES5, so I suppose that you will t
 All Javascript is placed in one file – main.js
 I hope you will like my project, thank you for attention. 
 
-[--RUS--]
+# UPD:
+# Front-end
+-)There were no design, so I styled all elements on flow.
+
+-)At the time of creation, I had not learnt NPM, GULP, BEM, SASS yet, so this things aren't applied.
+
+# [--RUS--]
 
 Телефонная книга – Никита Голубев
 (Февраль 2018)
@@ -37,3 +43,9 @@ I hope you will like my project, thank you for attention.
 Я не использовал Babel для компиляции ES6 в ES5, поэтому я предполагаю, что вы будете тестировать этот код в современных браузерах. Также, я использовал flexbox, но этот проект не адаптивный, потому что моей главной целью была тренировка Javascript.
 Весь Javascript расположен в одном файле – main.js.
 Я надеюсь, вам понравится мой проект, спасибо за внимание.
+
+# UPD:
+# Front-end
+-)Никакого дизайна изначально не было, все стили придумывались и применялись по ходу работы.
+
+-)В момент создания проекта, я ещё не изучил такие технологии, как: NPM, GULP, БЭМ, SASS, поэтому они не применяются.
