@@ -9,26 +9,26 @@ https://nikitosgolubev.github.io/contactList/
 
 Contact List By Nikita Golubev (February 2018)
 
-Create purpose:
-1)	To reinforce and advance knowledge of native Javascript.
-2)	To advance knowledge of ES6 and native work with DOM
-3)	To improve coding style, to learn how to write good comments and think more about functions and variables name
+Create a purpose:
+1)    To reinforce and advance knowledge of native Javascript.
+2)    To advance knowledge of ES6 and native work with DOM
+3)    To improve the coding style, to learn how to write good comments and think more about functions and variables name
 
 Usage recommendations:
-1)	A laptop or PC
-2)	A modern browser
+1)    A laptop or PC
+2)    A modern browser
 
-So, now I am 16 years old. And this is my contact list project which was started at 19th of  February and ended at 23rd of February. 
-In this project I’ve paid attention to a lot of details. My main purpose was to create as much as possible flexible and clear code that would be well commented.
-So, I haven’t used Babel to compile ES6 into ES5, so I suppose that you will test this code in modern browsers. Also, I have used flexbox(css), but this project doesn’t  responsive because my main purpose was to train Javascript . 
+So, now I am 16 years old. And this is my contact list project which was started on the 19th of  February and ended on the 23rd of February. 
+In this project, I’ve paid attention to a lot of details. My main purpose was to create as much as possible flexible and clear code that would be well commented.
+So, I haven’t used Babel to compile ES6 into ES5, so I suppose that you will test this code in modern browsers. Also, I have used flexbox(CSS), but this project doesn’t responsive because my main purpose was to master Javascript. 
 All Javascript is placed in one file – main.js
 I hope you will like my project, thank you for attention. 
 
 # UPD:
 # Front-end
--)There were no design, so I styled all elements on flow.
+-)There was no design, so I styled all elements on flow.
 
--)At the time of creation, I had not learnt NPM, GULP, BEM, SASS yet, so this things aren't applied.
+-)At the time of creation, I had not learned NPM, GULP, BEM, SASS yet, so these things aren't applied.
 
 # [--RUS--]
 
